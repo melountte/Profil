@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: black;
+}
+* .imghtml {
+  height: 555px;
+  padding-left: 20rem;
+  padding-top: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: black;
+  }
+  * .imghtml {
+    height: 410px;
+    padding-left: 0rem;
+    padding-top: 9rem;
+  }
+}
+
+/*# sourceMappingURL=C_py.css.map */

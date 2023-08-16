@@ -1,0 +1,227 @@
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .header {
+    background: #333;
+    height: 3.5rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    .part {
+      .logo {
+        padding-right: 57rem;
+        height: 40px;
+        padding-bottom: 0.5rem;
+      }
+    }
+    .profil {
+      padding-bottom: 0.5rem;
+    }
+    .touch {
+      padding-right: 4rem;
+      color: silver;
+
+      .bnt {
+        letter-spacing: 2px;
+        .join {
+          text-decoration: none;
+          color: aliceblue;
+        }
+      }
+      .join:hover {
+        color: #e1b12c;
+      }
+    }
+  }
+}
+.firstpage {
+  background-image: url(/img/fond1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100rem;
+  height: 35rem;
+  box-shadow: 2px 4px 10px black;
+  margin-bottom: 2rem;
+  strong {
+    color: #e1b12c;
+  }
+  .txthome {
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px solid #333;
+
+    .myname {
+      padding-top: 5rem;
+      letter-spacing: 5px;
+      font-size: 2.5rem;
+      text-decoration: overline;
+    }
+    .interet {
+      margin-top: 5rem;
+      font-size: 1.4rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      font-family: cursive;
+    }
+  }
+}
+.ambitions {
+  color: #333;
+  font-family: cursive;
+  font-size: 2rem;
+}
+.image {
+  margin-top: 2rem;
+  font-family: cursive;
+  font-size: 0.7rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  .image1 {
+    background: #333;
+    height: 350px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 2rem;
+    border-radius: 3rem;
+    width: 310px;
+    .img1 {
+      height: 200px;
+      width: 310px;
+    }
+    .p1 {
+      height: 200px;
+      width: 310px;
+      padding: 1rem;
+      color: aliceblue;
+    }
+  }
+  .image2 {
+    border-radius: 3rem;
+    color: aliceblue;
+    background: #333;
+    height: 350px;
+    width: 500px;
+    display: grid;
+    margin-left: 2rem;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 3rem;
+    width: 310px;
+    margin-right: 6rem;
+    .img2 {
+      height: 200px;
+      width: 310px;
+    }
+    .p2 {
+      height: 200px;
+      width: 310px;
+      margin-right: 4rem;
+      padding: 1rem;
+    }
+  }
+}
+.font {
+  background: linear-gradient(#333, gray);
+  height: 100px;
+  padding-top: 2rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  .certifications {
+    border: aliceblue 3px solid;
+    box-shadow: 10px 10px 4px #333;
+    height: 100px;
+    width: 300px;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-image: url(/img/fond2.jpg);
+    background-size: 100%;
+    color: azure;
+    .guide {
+      padding-top: 1rem;
+      padding-left: 0.5rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+    }
+    .container {
+      font-family: cursive;
+      padding-top: 1rem;
+      padding-left: 1rem;
+      letter-spacing: 2px;
+      font-size: 0.65rem;
+      .html:hover {
+        color: #e1b12c;
+      }
+      .py:hover {
+        color: #e1b12c;
+      }
+      .docker:hover {
+        color: #e1b12c;
+      }
+      .html {
+        text-decoration: none;
+        color: aliceblue;
+      }
+      .py {
+        text-decoration: none;
+        color: aliceblue;
+      }
+      .docker {
+        text-decoration: none;
+        color: aliceblue;
+      }
+    }
+  }
+}
+.contact {
+  margin-top: 8rem;
+  padding: 2rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-form input {
+  background: #333;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: white;
+  outline: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-form button {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.5rem 0.5rem;
+  border: 0;
+  border-radius: 30px;
+  background: #e1b12c;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: white;
+  color: #333;
+}
+.bg-dark {
+  background: #333;
+  color: white;
+}
