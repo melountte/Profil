@@ -150,31 +150,32 @@
       letter-spacing: 2px;
       font-size: 1rem;
       .html:hover {
-        color: #e1b12c;
+        color: gray;
       }
       .py:hover {
-        color: #e1b12c;
+        color: gray;
       }
       .docker:hover {
-        color: #e1b12c;
+        color: gray;
       }
       .html {
-        color: gray;
+        color: #e1b12c;
         text-decoration-line: underline;
-        text-decoration-color: rgb(146, 71, 42);
+        text-decoration-color: gray;
       }
       .py {
-        color: gray;
+        color: #e1b12c;
         text-decoration-line: underline;
-        text-decoration-color: rgb(146, 71, 42);
+        text-decoration-color: gray;
       }
       .docker {
-        color: gray;
+        color: #e1b12c;
         text-decoration-line: underline;
-        text-decoration-color: rgb(146, 71, 42);
+        text-decoration-color: gray;
       }
       .clic {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        color: gray;
       }
     }
   }

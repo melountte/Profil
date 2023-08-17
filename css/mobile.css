@@ -154,32 +154,30 @@
   letter-spacing: 2px;
   font-size: 0.65rem;
 }
-.font .certifications .container .html:hover {
-  color: #e1b12c;
-}
 .font .certifications .container .py:hover {
-  color: #e1b12c;
+  color: gray;
 }
 .font .certifications .container .docker:hover {
-  color: #e1b12c;
+  color: gray;
 }
 .font .certifications .container .html {
-  color: gray;
+  color: #e1b12c;
   text-decoration-line: underline;
-  text-decoration-color: rgb(146, 71, 42);
+  text-decoration-color: gray;
 }
 .font .certifications .container .py {
-  color: gray;
+  color: #e1b12c;
   text-decoration-line: underline;
-  text-decoration-color: rgb(146, 71, 42);
+  text-decoration-color: gray;
 }
 .font .certifications .container .docker {
-  color: gray;
+  color: #e1b12c;
   text-decoration-line: underline;
-  text-decoration-color: rgb(146, 71, 42);
+  text-decoration-color: gray;
 }
 .font .certifications .container .clic {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  color: gray;
 }
 
 .contact {
