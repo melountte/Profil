@@ -1,41 +1,41 @@
-@media only screen and (max-width: 600px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    cursor: pointer;
-  }
-  .header {
-    background: #333;
-    height: 3.5rem;
-    padding-top: 1rem;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 2rem;
-  }
-  .header .part .logo {
-    padding-right: 57rem;
-    height: 40px;
-    padding-bottom: 0.5rem;
-  }
-  .header .profil {
-    padding-bottom: 0.5rem;
-  }
-  .header .touch {
-    padding-right: 4rem;
-    color: silver;
-  }
-  .header .touch .bnt {
-    letter-spacing: 2px;
-  }
-  .header .touch .bnt .join {
-    text-decoration: none;
-    color: aliceblue;
-  }
-  .header .touch .join:hover {
-    color: #e1b12c;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
 }
+
+.header {
+  background: #333;
+  height: 3.5rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+.header .part .logo {
+  padding-right: 57rem;
+  height: 40px;
+  padding-bottom: 0.5rem;
+}
+.header .profil {
+  padding-bottom: 0.5rem;
+}
+.header .touch {
+  padding-right: 4rem;
+  color: silver;
+}
+.header .touch .bnt {
+  letter-spacing: 2px;
+}
+.header .touch .bnt .join {
+  text-decoration: none;
+  color: aliceblue;
+}
+.header .touch .join:hover {
+  color: #e1b12c;
+}
+
 .firstpage {
   background-image: url(/img/fond1.jpg);
   background-repeat: no-repeat;

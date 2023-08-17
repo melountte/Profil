@@ -1,44 +1,43 @@
-@media only screen and (max-width: 600px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    cursor: pointer;
-  }
-  .header {
-    background: #333;
-    height: 3.5rem;
-    padding-top: 1rem;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 2rem;
-    .part {
-      .logo {
-        padding-right: 57rem;
-        height: 40px;
-        padding-bottom: 0.5rem;
-      }
-    }
-    .profil {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.header {
+  background: #333;
+  height: 3.5rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+  .part {
+    .logo {
+      padding-right: 57rem;
+      height: 40px;
       padding-bottom: 0.5rem;
     }
-    .touch {
-      padding-right: 4rem;
-      color: silver;
+  }
+  .profil {
+    padding-bottom: 0.5rem;
+  }
+  .touch {
+    padding-right: 4rem;
+    color: silver;
 
-      .bnt {
-        letter-spacing: 2px;
-        .join {
-          text-decoration: none;
-          color: aliceblue;
-        }
+    .bnt {
+      letter-spacing: 2px;
+      .join {
+        text-decoration: none;
+        color: aliceblue;
       }
-      .join:hover {
-        color: #e1b12c;
-      }
+    }
+    .join:hover {
+      color: #e1b12c;
     }
   }
 }
+
 .firstpage {
   background-image: url(/img/fond1.jpg);
   background-repeat: no-repeat;
