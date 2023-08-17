@@ -55,7 +55,7 @@
 .firstpage .txthome .myname {
   padding-top: 5rem;
   letter-spacing: 5px;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   text-decoration: overline;
 }
 .firstpage .txthome .interet {
@@ -67,12 +67,13 @@
 
 .ambitions {
   color: #333;
+  margin-left: 5rem;
   font-size: 2rem;
 }
 
 .image {
   margin-top: 2rem;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
@@ -84,6 +85,7 @@
   margin-left: 2rem;
   border-radius: 3rem;
   width: 310px;
+  margin-bottom: 2rem;
 }
 .image .image1 .img1 {
   height: 200px;
@@ -162,16 +164,13 @@
   color: #e1b12c;
 }
 .font .certifications .container .html {
-  text-decoration: none;
-  color: aliceblue;
+  color: gray;
 }
 .font .certifications .container .py {
-  text-decoration: none;
-  color: aliceblue;
+  color: gray;
 }
 .font .certifications .container .docker {
-  text-decoration: none;
-  color: aliceblue;
+  color: gray;
 }
 
 .contact {
@@ -182,45 +181,9 @@
   align-items: center;
 }
 
-.contact-form {
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.contact-form input {
-  background: #333;
-  border: 0;
-  border-bottom: 1px solid #555;
-  padding: 1rem;
-  font-size: 1.3rem;
-  color: white;
-  outline: 0;
-  margin-bottom: 1rem;
-}
-
-.contact-form button {
-  display: block;
-  margin: 2rem auto;
-  padding: 0.5rem 0.5rem;
-  border: 0;
-  border-radius: 30px;
-  background: #e1b12c;
-  color: white;
-  font-weight: 700;
-  font-size: 1.3rem;
-  cursor: pointer;
-}
-
-.contact-form button:hover {
-  background: white;
-  color: #333;
-}
-
 .bg-dark {
   background: #333;
-  color: white;
+  color: #e1b12c;
 }
 
 /*# sourceMappingURL=mobile.css.map */
