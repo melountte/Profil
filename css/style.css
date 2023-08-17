@@ -149,6 +149,7 @@
   padding-top: 1rem;
   padding-left: 1rem;
   letter-spacing: 2px;
+  font-size: 1rem;
 }
 .font .certifications .container .html:hover {
   color: #e1b12c;
@@ -161,12 +162,21 @@
 }
 .font .certifications .container .html {
   color: gray;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(146, 71, 42);
 }
 .font .certifications .container .py {
   color: gray;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(146, 71, 42);
 }
 .font .certifications .container .docker {
   color: gray;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(146, 71, 42);
+}
+.font .certifications .container .clic {
+  font-size: 0.7rem;
 }
 
 .contact {

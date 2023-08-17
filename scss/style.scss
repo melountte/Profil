@@ -148,6 +148,7 @@
       padding-top: 1rem;
       padding-left: 1rem;
       letter-spacing: 2px;
+      font-size: 1rem;
       .html:hover {
         color: #e1b12c;
       }
@@ -159,12 +160,21 @@
       }
       .html {
         color: gray;
+        text-decoration-line: underline;
+        text-decoration-color: rgb(146, 71, 42);
       }
       .py {
         color: gray;
+        text-decoration-line: underline;
+        text-decoration-color: rgb(146, 71, 42);
       }
       .docker {
         color: gray;
+        text-decoration-line: underline;
+        text-decoration-color: rgb(146, 71, 42);
+      }
+      .clic {
+        font-size: 0.7rem;
       }
     }
   }
