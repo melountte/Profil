@@ -34,10 +34,10 @@
   margin-top: 4rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
 }
 .whitecontain .backgroundcontain .email {
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
   margin-left: 40%;
   margin-top: 3rem;
 }
@@ -87,11 +87,11 @@
     margin-top: 4rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    font-family: cursive;
+    font-family: "Times New Roman", Times, serif;
     font-size: 0.6rem;
   }
   .whitecontain .backgroundcontain .email {
-    font-family: cursive;
+    font-family: "Times New Roman", Times, serif;
     margin-left: 28%;
     margin-top: 3rem;
   }
