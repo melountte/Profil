@@ -72,17 +72,22 @@
       </div>
     </div>
     <section id="contact" class="contact bg-dark">
-      <form action="#" class="contact-form">
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        class="contact-form"
+      >
         <h2 class="title">Laissez moi un avis sur mon site !</h2>
-
         <input
           type="text"
+          name="email"
           placeholder="Votre message ..."
           name="message"
           id="message"
         />
         <div>
-          <button>Soumettre</button>
+          <button type="submit">Soumettre</button>
         </div>
       </form>
     </section>
